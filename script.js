@@ -1,0 +1,1 @@
+alert('Selamat Datang Di Pondok Abu Dzar')
