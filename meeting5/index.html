@@ -33,12 +33,14 @@
       let nyamuk = "11";
       let angsa = 10;
       let hasilBelalangNyamuk = +belalang + +nyamuk;
-      let hasilNyamukAngsa = +nyamuk + angsa;
+      let hasilNyamukAngsa = +nyamuk + +angsa;
 
       console.log(latihan3);
       console.log(hasilBelalangNyamuk);
       console.log(hasilNyamukAngsa);
-
+      console.log(
+        ` simple aja, kalau di tidak memakai petik maka hasilnya ditambah , tapi kalau menggunakan petik maka hasil nya akan digabung, `
+      );
       //   LATIHAN 4
       let latihan4 = "Latihan 4";
       let fiksi = 5;
@@ -56,20 +58,33 @@
 
       //   LATIHAN 5
       let latihan5 = "Latihan 5";
+      let penjumlahan1 = 5 + 3 * 2;
+      let penjumlahan2 = (5 + 3) * 2;
       console.log(latihan5);
-      console.log(5 + 3 * 2);
+      // console.log(5 + 3 * 2);
+      console.log(`Penjumlahan 1 =  ${penjumlahan1}`);
+      console.log(`Penjelasan Penjumlahan 1 = jadi 2 x 3 + 5 = 11`);
+      console.log(`Penjumlahan 2 =  ${penjumlahan2}`);
+      console.log(`Penjelasan Penjumlahan 2 = 5 + 3 x 2 `);
 
       // LATIHAN 6
+      let latihan6 = "Latihan 6";
       let kresek = 4;
       let kotak = 6;
       let ember = 5 + (kresek = kotak);
+      console.log(latihan6);
       console.log(`Kresek : ${kresek}`);
       console.log(`Kotak : ${kotak}`);
       console.log(`Ember : ${ember}`);
+      console.log(
+        `Penjelasan = karena 5 + Kresek = Kotak, maksudnya kresek sama dengan kotak`
+      );
 
       //   LATIHAN 7 CHAINING ASSIGNMENT
+      let latihan7 = "latihan 7";
       let x, y, z;
       x = y = z = 5 + 10 + 15;
+      console.log(latihan7);
       console.log(`X :${x}`);
       console.log(`Y :${y}`);
       console.log(`Z :${z}`);
@@ -83,14 +98,16 @@
       console.log(n);
 
       // LATIHAN 9  INKREMEN / DEKREMEN
-      let latihan9 = 'Latihan 9';
-      let xx = 5;
-      xx++;
-      let yy = 8;
-      yy--;
-      console.log(latihan9)
-      console.log(xx);
-      console.log(yy);
+      let latihan9 = "Latihan 9";
+      let j = 5;
+      j++;
+      let k = 8;
+      k--;
+      console.log(latihan9);
+      console.log(j);
+      console.log(k);
+      console.log(`cara kerja j++ = j + 1,`);
+      console.log(`cara kerja k-- = k - 1,`);
     </script>
   </body>
 </html>
