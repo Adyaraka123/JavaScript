@@ -7,6 +7,7 @@ let number6 = 'cherry';
 let number7 = 10;
 let number8;
 let number9 = null;
+
 // KEGUNAAN >, contoh = 2 > 1 ,  berarti 2 lebih besar dari 1. 
 // KEGUNAAN <, contoh = 2 < 1 ,berarti 2 lebih kecil dari 1 .
 // NAMUN KITA JANGAN TERTIPU OLEH VARIABLE NYA, KITA LIHAT VALUE NYA .
@@ -20,9 +21,11 @@ let number9 = null;
 console.log(number8)
 console.log(number2 < number1)
 console.log(number2 > number1)
+console.log(number1 !== number3) 
+console.log(number1 <= number3)
 console.log(number1 == number3)
-console.log(number1 === number3)
 console.log(number1 != number3)
 console.log(number1 !== number3)
 // BERDASARKAN HURUF APLHABET ↓
 console.log(number4 > number6)
+
