@@ -34,7 +34,7 @@ ujianIT >= 91
   ? console.log("Grade C")
   : console.log("Grade D");
 
-  //TUGAS NOMER 2
+//TUGAS NOMER 2
 //   Nurudin berbelanja dipasar untuk membeli buah,
 // Ketika pergi ia membeli buah Nangka 1buah,
 
@@ -50,11 +50,41 @@ ujianIT >= 91
 // Tampilkan hasil diatas menggunakan metode:
 // - switch Statement
 
-let buah1 = "Nangka";
-let buah2 = "Salak";
-let buah3 = "Chery";
+//JAWABAN 2
 
+let buahYangDibawa = "Nangka"; //
+let buahTambahan = "Salak"; //
 
+switch (buahYangDibawa) {
+  case "Chery":
+    console.log("Nurudin mendapatkan buah Chery.");
+    break;
+  case "Nangka":
+    console.log("Nurudin mendapatkan buah Nangka.");
+    break;
+  case "Salak":
+    if (buahTambahan === "Salak") {
+      console.log("Nurudin mendapatkan buah Salak dan Nangka.");
+    } else {
+      console.log("Nurudin mendapatkan buah Salak.");
+    }
+    break;
+  default:
+    console.log("Nurudin tidak membeli buah apapun.");
+}
 
+// diketahui variable saklar isi nilainya adalah undefined
+// Jika benar maka tampilkan teks di console log "saklarnya hidup"
+// selain itu, tampilkan di console log "saklarnya mati"
 
+// pertanyaannya:
+// tampilkan hasil diatas menggunakan metode:
+// - Konversi Boolean dalam if
+// let saklar = undefined;
 
+// JAWABAN 3
+if (!Boolean(saklar)) {
+  console.log("Saklarnya mati");
+} else {
+  console.log("Saklarnya hidup");
+}
