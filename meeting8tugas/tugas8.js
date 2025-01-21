@@ -88,3 +88,19 @@ if (!Boolean(saklar)) {
 } else {
   console.log("Saklarnya hidup");
 }
+
+let hasil = (nilai > 70 ) ? "lulus" : "tidak lulus";
+
+
+// TUGAS 8 GOOGLE FORM
+
+let nilaiAngka = prompt("Masukkan nilai angka:");
+nilaiAngka = parseInt(nilaiAngka);
+
+if (nilaiAngka > 50) {
+    console.log("Nilai sangat besar");
+} else if (nilaiAngka >= 20 && nilaiAngka <= 50) {
+    console.log("Nilai cukup besar");
+} else {
+    console.log("Nilai kecil");
+}
