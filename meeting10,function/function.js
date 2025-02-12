@@ -48,3 +48,10 @@ function number(no = 0) { //no = parameter, 0 = nilai default
 
 }
 number();
+
+
+
+function add(a, b) {
+  return a + b;
+  }
+  console.log(add(3, 5));  
