@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slicing Card</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: rgb(38, 38, 47);
+  height: 700px;
+  padding-top: 200px;
+}
+.all-card {
+  background-color: rgb(249, 249, 249);
+  border-radius: 20px;
+  height: 320px;
+  margin-top: 50px;
+  margin-right: 800px;
+  margin-left: 250px;
+}
+
+/* TOP CARD */
+.top-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* TOP LEFT CARD */
+.top-left-card {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.top-left-card img {
+  width: 60px;
+  height: 60px;
+}
+
+/* TOP RIGHT CARD */
+.top-right-card {
+  margin-top: 25px;
+  margin-left: 250px;
+}
+
+.top-right-card img {
+  width: 120px;
+}
+
+/* LINE  */
+
+.line-first {
+  height: 23px;
+  background-color: rgba(209, 209, 209, 1);
+  border-radius: 20px;
+  margin-right: 200px;
+  margin-left: 20px;
+}
+.line-second {
+  height: 13px;
+  background-color: rgba(209, 209, 209, 1);
+  border-radius: 20px;
+  margin-right: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.line-third {
+  height: 13px;
+  background-color: rgba(209, 209, 209, 1);
+  border-radius: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+
+}
+
+/* BOTTOM BUTTON JAVASCRIPT */
+
+.heart-button {
+  
+  margin-left: 20px;
+  border: 2px solid ;
+  border-radius: 10px;
+  border-color: rgba(209, 209, 209, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+.heart-button img {
+  
+  width: 30px;
+}
+
+.share-button {
+  
+  margin-left: 20px;
+  border: 2px solid ;
+  border-radius: 10px;
+  border-color: rgba(209, 209, 209, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+}
+.share-button img {
+  
+  width: 25px;
+}
+
+.view-more {
+  margin-left: 60px;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 193, 135, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 12px;
+}
+    </style>
+  </head>
+  <body>
+    <section class="theme">
+      <section class="card">
+        <div class="all-card">
+          <div class="top-card">
+            <div class="top-left-card">
+              <img src="Ellipse 1.png" />
+            </div>
+            <div class="top-right-card">
+              <img src="Frame 4.png" />
+            </div>
+          </div>
+
+          <div class="line-first"></div>
+          <br />
+          <div class="line-second"></div>
+
+          <div class="line-third"></div>
+
+          <button onclick="lovee()" class="heart-button">
+            <img src="coolicon.png" />
+          </button>
+
+          <button onclick="sharee()" class="share-button">
+            <img src="coolicon-1.png" />
+          </button>
+
+          <button onclick="vieww()" class="view-more">
+            <h1>VIEW MORE</h1>
+          </button>
+        </div>
+      </section>
+    </section>
+    <script>
+      function vieww() {
+        let hasil = confirm("Anda Yakin???");
+        alert(hasil)
+      }
+
+      function sharee() {
+        let aksi = prompt("Your Name");
+        alert("Halo" + aksi)
+      }
+
+      function lovee() {
+        alert("Terima Kasih")
+      }
+
+      //Pelajaran
+      
+      // function share() {
+      //     alert("new");
+      // }
+
+      // //alert
+      // alert("Halo ini alert");
+
+      // // prompt
+      // let name = prompt("Masukkan nama anda");// prompt Untuk mengisi sesuatu
+      // alert("Halo " + name);
+
+      // // confirm
+      // let result = confirm("Apakah anda yakin?");//confirm untuk meminta konfirmasi
+      // alert(result);
+    </script>
+  </body>
+</html>

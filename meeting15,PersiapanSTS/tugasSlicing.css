@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: rgb(38, 38, 47);
+  height: 700px;
+  padding-top: 200px;
+}
+.all-card {
+  background-color: rgb(249, 249, 249);
+  border-radius: 20px;
+  height: 320px;
+  margin-top: 50px;
+  margin-right: 800px;
+  margin-left: 250px;
+}
+
+/* TOP CARD */
+.top-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* TOP LEFT CARD */
+.top-left-card {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.top-left-card img {
+  width: 60px;
+  height: 60px;
+}
+
+/* TOP RIGHT CARD */
+.top-right-card {
+  margin-top: 25px;
+  margin-left: 250px;
+}
+
+.top-right-card img {
+  width: 120px;
+}
+
+/* LINE  */
+
+.line-first {
+  height: 23px;
+  background-color: rgba(209, 209, 209, 1);
+  border-radius: 20px;
+  margin-right: 200px;
+  margin-left: 20px;
+}
+.line-second {
+  height: 13px;
+  background-color: rgba(209, 209, 209, 1);
+  border-radius: 20px;
+  margin-right: 80px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.line-third {
+  height: 13px;
+  background-color: rgba(209, 209, 209, 1);
+  border-radius: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+
+}
+
+/* BOTTOM BUTTON JAVASCRIPT */
+
+.heart-button {
+  
+  margin-left: 20px;
+  border: 2px solid ;
+  border-radius: 10px;
+  border-color: rgba(209, 209, 209, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+.heart-button img {
+  
+  width: 30px;
+}
+
+.share-button {
+  
+  margin-left: 20px;
+  border: 2px solid ;
+  border-radius: 10px;
+  border-color: rgba(209, 209, 209, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+}
+.share-button img {
+  
+  width: 25px;
+}
+
+.view-more {
+  margin-left: 60px;
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 193, 135, 1);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 12px;
+}
